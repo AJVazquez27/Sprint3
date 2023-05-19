@@ -1,0 +1,547 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.menu {
+    height: 10vh;
+    width: 100%;
+    border: solid rgb(224, 27, 93) ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu a{
+    color: rgb(224, 27, 93);
+    font-size: 1.5rem;
+    text-decoration-line: none;
+}
+
+.logo{
+    height: 2rem;
+}
+
+h1{
+    color: blueviolet;
+    font-size: 4rem;
+    text-align: center;
+    margin: 10px;
+}
+
+h2{
+    color: rgb(173, 115, 228);
+    font-size: 3rem;
+    text-align: center;
+    margin: 10px;
+}
+
+h3{
+    color: rgb(188, 157, 218);
+    font-size: 1.2rem;
+}
+
+main{
+    min-height: 80vh;
+}
+
+.homePrinci{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.imgPrinci{
+    height: 25rem;
+    width: 40rem;
+    object-fit: contain;
+}
+
+.abajo{
+    height: 28rem;
+    width: 20rem;
+    object-fit: contain;
+}
+
+.homeAbajo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-right: 27rem;
+    margin: 2rem;
+}
+
+#homeTexto{
+    color: rgb(173, 114, 228);
+    font-size: 2rem;
+    margin-left: 25rem;
+    margin-top: 3rem;
+}
+
+table{
+   margin: 2rem 30rem;
+}
+
+th{
+    font-size: 1.5rem;
+}
+
+table, tr, th, td{
+    color: aliceblue;
+    width: 400px;
+    height: 100px;
+    border:solid rgb(224, 27, 93);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.pagPrincipal{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.lista{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.lista img{
+    margin-left: 15rem;
+}
+
+.listaa{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5.5rem;
+    margin-left: 4rem;
+}
+
+.benefitsImg{
+    height: 20rem;
+    width: 20rem;
+    object-fit: contain;
+}
+
+ul{
+    margin-left: 1rem;;
+}
+ .listaDesordenada li{
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+.Titulo{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+footer{
+    height: 10vh;
+    width: 100%;
+    border: solid rgb(224, 27, 93) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: rgb(224, 27, 93);
+    font-size: 1.2rem;
+}
+
+.contactPrinci{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.imagcon{
+    height: 25rem;
+    width: 40rem;
+    object-fit: contain;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   margin-left: 22rem;
+}
+
+.mail, .Phone{
+    color: rgb(173, 114, 228);
+    font-size: 1.5rem;
+}
+
+.mail{
+    margin-right: 3rem;
+}
+
+.Phone{
+    margin-right: 3rem;
+}
+
+
+#cont {
+    color: rgb(173, 114, 228);
+    font-size: 1.8rem;
+    margin-left: 390px;
+    margin-top: 1rem;
+}
+
+.info{
+    height: 6vh;
+    width: 100%;
+    display: inline-block;
+    text-align:center;
+    margin: 10px;
+}
+
+.info p{
+    color: blueviolet;
+    font-size: 1.2rem;
+    margin-right: 2rem;
+}
+ 
+.aboutUsPrinci{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.aboutUsIm{
+    height: 15rem;
+    width: 15rem;
+    object-fit: contain;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   margin-left: 15rem;
+}
+
+.about{
+    width: 90%;
+    color:rgb(173, 114, 228); 
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5.5rem;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 2rem;
+}
+
+.aboutL{
+    width: 100%;
+    color: rgb(173, 114, 228);;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5.5rem;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 7rem;
+}
+
+.aboutDiv{width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.rafflePag{
+    display: flex;
+    padding-left: 9rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+form{
+    color: aliceblue;
+    accent-color: rgb(245, 10, 49);
+    height: fit-content;
+    width: fit-content;
+    font-size: 1.1rem;
+    box-shadow: rgba(255, 0, 157, 0.1) 0px 8px 24px, rgba(255, 0, 140, 0.1) 0px 16px 56px, rgba(255, 0, 85, 0.1) 0px 24px 80px;
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+}
+
+fieldset{
+    height: 2.5rem;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    height: 7rem;
+    padding: 0 1rem;
+}
+
+.textArea{
+    height: 5rem;
+    width: 15rem;
+}
+
+option, input, select{
+    color: aliceblue;
+}
+
+.labTandC{
+    font-size: 0.9rem;
+    margin-left: 0.7rem;
+}
+
+.button {
+    display: flex;
+}
+
+.button label{
+    width: 75%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .menu{
+        height: 40vh;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .menu a{
+        font-size: 1.5rem;
+    }
+
+    .homeAbajo{
+       display: flex;;
+    }
+
+    #homeTexto{
+        font-size: 1.5em;
+        align-items: center;
+    }
+
+    .abajo{
+       margin-left: 1rem;
+    }
+
+    .benefitsImg{
+        height: 15rem;
+        width: 15rem;
+        object-fit: contain;
+        margin: 0;
+    }
+    .listaDesordenada li{
+        font-size: 0.8rem;
+     }
+    
+    .Titulo{
+        font-size: 1.1rem;
+    } 
+
+    table{
+        margin: 2rem 12rem;
+    }
+
+    .contactPrinci{
+        display: flex;
+        align-items: center;
+    }
+
+    .imagcon{
+        height: 15rem;
+        width: 25rem;
+        object-fit: contain;
+        margin: 1rem 0;
+    }
+
+    #cont{
+        margin: 1rem 0;
+    }
+
+    .rafflePag{
+        display: flex;
+        padding: 1rem 5rem;
+        flex-wrap: wrap;
+    }
+
+    .formR{
+        margin-left: 6rem;
+    }
+
+    .map{
+        height: 35rem;
+        width: 35rem;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .menu{
+        height: 25vh;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .menu a{
+        font-size: 0.8rem;
+    }
+
+    h1{
+        color: blueviolet;
+        font-size: 2rem;
+        text-align: center;
+        margin: 10px;
+    }
+    
+    h2{
+        color: rgb(173, 115, 228);
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 10px;
+    }
+
+    main{
+        min-height: 60vh;
+    }
+
+    .imgPrinci{
+        height: 10rem;
+        width: 15rem;
+        object-fit: contain;
+    }
+
+    .homeAbajo{
+        display: flex;
+        margin: 0;
+        margin-bottom: 3rem;
+        flex-direction: column-reverse;
+    }
+
+    .abajo{
+        height: 15rem;
+        width: 10rem;
+        object-fit: contain;
+        margin-left: 4rem;
+    }
+
+    #homeTexto{
+        width: 10rem;
+        font-size: 1em;
+        margin-left: 4rem;
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+
+    footer p{
+        font-size: 0.7rem;
+    }
+
+    .lista{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .lista img{
+        margin: 0 5rem;
+    }
+
+    .listaa{
+        margin: 0.5rem 1.5rem;
+    }
+
+    .benefitsImg{
+        height: 10rem;
+        width: 10rem;
+        object-fit: contain;
+    }
+
+    ul{
+        margin-left: 0.3rem;
+    }
+
+    .listaDesordenada li{
+        font-size: 0.7rem;
+    }
+
+    .Titulo{
+        font-size: 1.2rem;
+    }
+
+    .rafflePag{
+        display: flex;
+        padding: 1rem 1rem;
+        flex-direction: column-reverse;
+    }
+
+    .formR{
+        margin: 0;
+    }
+
+    form{
+        height: fit-content;
+        width: fit-content;
+        font-size: 0.9rem;
+        margin: 1rem 0;
+    }
+
+    .map{
+        height: 14rem;
+        width: 14rem;
+    }
+
+    table{
+        margin: 2rem 2rem;
+    }
+
+    table, tr, th, td{
+        width: 250px;
+        height: 100px;
+    }
+
+    .imagcon{
+        height: 10rem;
+        width: 20rem;
+        object-fit: contain;
+       margin-top: 1rem;
+       margin-bottom: 1rem;
+       margin-left: 0.5rem;
+    }
+
+    #cont{
+        font-size: 1.2rem;
+        margin: 1rem 1rem;
+    }
+
+    .mail, .Phone{
+        color: rgb(173, 114, 228);
+        font-size: 0.9rem;
+    }
+
+    .aboutDiv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutUsIm{
+        height: 14rem;
+        width: 14rem;
+        object-fit: contain;
+        margin: 0.3rem 3rem;
+    }
+
+    .about{
+        margin: 1rem;
+        font-size: 1rem;
+    }
+
+    .aboutL{
+        font-size: 1rem;
+        margin: 1rem 2rem;
+    }
+}
